@@ -1,0 +1,64 @@
+../ycy/
+├── case150519      (同work目录的 IO 输出源汇    宁夏个例150519  方案Thompson)
+│   ├── WRFV3
+│   └── WRFV3.7.1.TAR.gz -> ../../thompson/WRFV3.7.1.TAR.gz
+├── ECMWF      (ignore EC 的6月的初始场)
+│   └── 06
+├── metoa      (ignore 同化初始场 wrf输入场)
+│   ├── metoa_em.d01.2017-06-07_00:00:00.nc
+│   ├── metoa_em.d01.2017-06-07_06:00:00.nc
+│   ├── metoa_em.d01.2017-06-07_12:00:00.nc
+│   ├── metoa_em.d01.2017-06-07_18:00:00.nc
+│   ├── metoa_em.d02.2017-06-07_00:00:00.nc
+│   ├── metoa_em.d02.2017-06-07_06:00:00.nc
+│   ├── metoa_em.d02.2017-06-07_12:00:00.nc
+│   ├── metoa_em.d02.2017-06-07_18:00:00.nc
+│   ├── wrfsfdda_d01
+│   └── wrfsfdda_d02
+├── res   (冰雹轨迹模式文件夹)
+│   ├── 1_external
+│   ├── 200
+│   ├── 200.tar.gz
+│   ├── 525
+│   ├── 5_case8_ycy
+│   ├── 9倍区域_case8_ycy
+│   ├── 9倍区域_case9_ycy
+│   ├── case0_ycy
+│   ├── case8_ycy
+│   ├── chang_initiald_9_case8_ycy
+│   ├── expand3
+│   ├── expand5
+│   ├── g_g
+│   ├── g_g1
+│   ├── g_g2
+│   ├── py_expand3
+│   ├── py_expand5
+│   ├── qc_test
+│   ├── README
+│   ├── wmax_product
+│   ├── wrfout_d02_2017-06-07_00:00:00 -> /nuist/u/home/Liuxl/ycy/NCCN/200/WRFV3/run/8-200/wrfout_d02_2017-06-07_00:00:00
+│   └── ycy_100_full
+├── res-5case    (毕业用的论文画图的压缩包 不重要)
+│   ├── io    (MY方案带源汇项)
+│   └── res    (MY方案不带源汇项)
+├── tar      (压缩包)
+│   ├── 170607      (宁夏个例2017年 6月7日个例做CCN浓度敏感性实验  50 200 2000 10000数浓度实验)
+│   ├── case610-io.tar.gz  
+│   └── ncn.tar.gz    (CCN浓度  只压缩了源汇项数浓度和一个模板wrfout文件)
+├── test01      (ignore 测试使用)
+│   ├── pic
+│   ├── WRFV3
+│   └── WRFV3.7.1.TAR.gz -> ../work/WRFV3.7.1.TAR.gz
+├── thompson    (宁夏个例20170607 Thompson方案)
+│   ├── 3.71MY&THO   (3.7.1版本WRF MY和thompson修改的微物理方案源代码)
+│   ├── code     (修改的微物理方案源代码)
+│   ├── namelist.input    (thompson方案WRF namelist设置)
+│   ├── t6
+│   ├── WPS     (WPS文件夹)
+│   ├── WPSV3.7.1.TAR.gz -> ../work/WPSV3.7.1.TAR.gz
+│   ├── WRFV3     (WRF文件夹)
+│   └── WRFV3.7.1.TAR.gz -> ../work/WRFV3.7.1.TAR.gz
+└── work      (WRF压缩包)
+    ├── WPSV3.7.1.TAR.gz
+    └── WRFV3.7.1.TAR.gz
+
