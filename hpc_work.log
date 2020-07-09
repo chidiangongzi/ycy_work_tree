@@ -223,7 +223,7 @@ MY和Th
 │   ├── unfold.f90
 │   ├── unfold.o
 │   └── wrfout_d02_2018-06-10_00:00:00 -> /nuist/scratch/liuxl/liuxl/ycy/case610/io/WRFV3/run/case610-io/wrfout_d02_2018-06-10_00:00:00
-├── MESH                    
+├── MESH           (地面降雹最大估计尺寸)
 ├── nj731
 │   ├── adj01
 │   ├── dbz
