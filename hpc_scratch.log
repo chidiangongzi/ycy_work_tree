@@ -1,0 +1,118 @@
+/nuist/scratch/liuxl/liuxl/ycy
+├── be      (ignore 测试用的  背景误差)
+│   ├── csh
+│   ├── output
+│   ├── WPS
+│   └── WRFV3
+├── case1003
+│   ├── io          (io MY的源汇项(修改namelist) 以下case同)
+│   │   └── WRFV3   (wrfout在run目录的case1003-io.tar.gz   116G)
+│   ├── WPS
+│   └── WRFV3       (不做源汇项 wrfout在run目录的case1003.tar.gz   94.5G)
+├── case428
+│   ├── io
+│   │   └── WRFV3   (wrfout在run目录的case428-io.tar.gz   94.4G)
+│   ├── WPS
+│   └── WRFV3       (不做源汇项 wrfout在run目录的case428.tar.gz   84.6G)
+├── case519
+│   ├── io
+│   │   └── WRFV3   (wrfout在run目录的case519-io.tar.gz   101G)
+│   ├── WPS
+│   └── WRFV3       (有找到wrfout文件 ??????)
+├── case610
+│   ├── io
+│   │   └── WRFV3   (wrfout在run目录的case610-io.tar.gz   98G   此处压缩包有解压)
+│   ├── OBSGRID             (???????)
+│   ├── WPS
+│   └── WRFV3       (不做源汇项 wrfout在run目录的case610.tar.gz   84.5G)
+├── case66
+│   ├── io
+│   │   └── WRFV3   (wrfout在run目录的case66-io.tar.gz   96.2G)
+│   ├── WPS
+│   └── WRFV3       (不做源汇项 wrfout在run目录的case66.tar.gz   84.8G)
+├── case731
+│   ├── fnl         (fnl 初始场)
+│   ├── namelist.input
+│   ├── WPS
+│   └── WRFV3       (还未转)
+│   └── WRFV3.7.1.TAR.gz -> ../tho/WRFV3.7.1.TAR.gz
+├── DA              (ignore 测试用的 同化)
+│   ├── WRFDA
+│   └── WRFDA_V3.7.1.tar.gz -> /nuist/u/home/liuxl/ycy/WRFDA_V3.7.1.tar.gz
+├── datest          (ignore 测试用的)
+│   ├── WPS
+│   ├── WPSV3.7.1.TAR.gz -> /nuist/p/work/liuxl/liuxl/ycy/work/WPSV3.7.1.TAR.gz
+│   ├── WRFDA
+│   ├── WRFV3
+│   └── WRFV3.7.1.TAR.gz -> /nuist/p/work/liuxl/liuxl/ycy/work/WRFV3.7.1.TAR.gz
+├── gfs.2017071318.tgz
+├── io              (旧的  源汇项源代码  ----不看)
+│   ├── code
+│   │   ├── module_microphysics_driver.F
+│   │   ├── module_mp_milbrandt2mom.F
+│   │   ├── Registry.EM_COMMON
+│   │   └── solve_em.F
+│   ├── module_microphysics_driver.F
+│   ├── module_mp_milbrandt2mom.F
+│   ├── namelist.input
+│   ├── Registry.EM_COMMON
+│   └── solve_em.F
+├── micaps                 (micaps数据)
+│   ├── obs.2017060600
+│   ├── obs.2017060612
+│   ├── obs.2017060700
+│   ├── surface_obs.2017060600
+│   ├── surface_obs.2017060606
+│   ├── surface_obs.2017060612
+│   ├── surface_obs.2017060618
+│   └── surface_obs.2017060700
+├── NCCN                   (6月7日个例修改4种CCN浓度  有 nudging)
+│   ├── cncode
+│   ├── jobname.err
+│   ├── n10000
+│   ├── n200
+│   ├── n2000
+│   ├── n50
+│   ├── ncn.tar.gz
+│   ├── tar-200.o209485
+│   ├── tar.sh            (压缩数据的qsub脚本)
+│   ├── WRFV3
+│   └── WRFV3.7.1.TAR.gz -> /nuist/p/work/liuxl/liuxl/ycy/work/WRFV3.7.1.TAR.gz
+├── nx67                  (为NCCN文件提供初始场  WPS)
+│   ├── 3.71
+│   ├── OBSGRID
+│   └── OBSGRID.tar -> /nuist/scratch/liuxl/ycy/nx67/3.71/S-nh/OBSGRID.tar
+├── nx67-obs               (namelist.input 和nudging -- 倾向于观测的nudging)
+│   ├── nx67-obs-namelist.input
+│   └── OBSGRID
+├── OBSGRID
+│   ├── arch
+│   ├── CHANGES
+│   ├── clean
+│   ├── compile
+│   ├── configure
+│   ├── configure.oa
+│   ├── log
+│   ├── namelist.oa
+│   ├── OBS:2017-06-06_00 -> ./util/OBS:2017-06-06_00
+│   ├── OBS:2017-06-06_03 -> ./util/OBS:2017-06-06_03
+│   ├── OBS:2017-06-06_06 -> ./util/OBS:2017-06-06_06
+│   ├── OBS:2017-06-06_09 -> ./util/OBS:2017-06-06_09
+│   ├── OBS:2017-06-06_12 -> ./util/OBS:2017-06-06_12
+│   ├── OBS:2017-06-06_15 -> ./util/OBS:2017-06-06_15
+│   ├── OBS:2017-06-06_18 -> ./util/OBS:2017-06-06_18
+│   ├── OBS:2017-06-06_21 -> ./util/OBS:2017-06-06_21
+│   ├── OBS:2017-06-07_00 -> ./util/OBS:2017-06-07_00
+│   ├── obsgrid.exe -> src/obsgrid.exe
+│   ├── README
+│   ├── run_cat_obs_files.csh
+│   ├── src
+│   └── util
+├── test01    (ignore 测试用的)
+│   ├── OBSGRID
+│   └── WPS
+├── tho
+│   ├── namelist.input
+│   ├── smooth-namelist.input
+│   └── WRFV3.7.1.TAR.gz -> /nuist/p/work/liuxl/liuxl/ycy/work/WRFV3.7.1.TAR.gz
+└── WRFDA_V3.7.1.tar
