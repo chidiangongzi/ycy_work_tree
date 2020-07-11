@@ -15,7 +15,58 @@
 │   └── res-io-9
 ├── biyelunwen     (毕业论文用 --ignore)
 │   ├── 141003
+│   │   ├── io
+│   │   │   ├── g     (霰粒子微物理源项 雪霰转换QCNSG 水汽凝华QVDCG 碰并云水QCLCG)
+│   │   │   ├── h     (冰雹微物理源项 霰雹转换QCNGH 碰并雨水QCLRH 碰并云水QCLCH)
+│   │   │   ├── i     (冰晶微物理源项 云水冻结QFZCI 水汽凝华QVDVI)
+│   │   │   ├── r     (雨滴微物理源汇转换 雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR)
+│   │   │   └── s     (雪晶微物理源项 冰雪转化QCNIS 水汽凝华QVDVS 碰并云水QCLCS)
+│   │   ├── io-cloud
+│   │   ├── io-graupel
+│   │   ├── io-hail
+│   │   ├── io-ice
+│   │   ├── io-rain
+│   │   ├── io-snow
+│   │   ├── io-total
+│   │   ├── qcisghr
+│   │   ├── rh              (不同气压层相对湿度)
+│   │   ├── t-lnp
+│   │   └── Wmax-T
 │   └── 180610
+│       ├── chui
+│       ├── dbz
+│       ├── dbz-ra
+│       ├── diaf
+│       ├── hail
+│       ├── io
+│       │   ├── g     (霰粒子微物理源项 雪霰转换QCNSG 水汽凝华QVDCG 碰并云水QCLCG)
+│       │   ├── h     (冰雹微物理源项 霰雹转换QCNGH 碰并雨水QCLRH 碰并云水QCLCH)
+│       │   ├── i     (冰晶微物理源项 云水冻结QFZCI 水汽凝华QVDVI)
+│       │   ├── r     (雨滴微物理源汇转换 雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR)
+│       │   └── s     (雪晶微物理源项 冰雪转化QCNIS 水汽凝华QVDVS 碰并云水QCLCS)
+│       ├── io-cloud
+│       ├── io-graupel
+│       ├── io-hail
+│       ├── io-ice
+│       ├── io-rain
+│       ├── io-snow
+│       ├── io-total
+│       ├── mcape
+│       ├── mcin
+│       ├── mesh
+│       ├── mesh-ra
+│       ├── NCCN
+│       ├── nom
+│       ├── nudging
+│       ├── obrain
+│       ├── omega
+│       ├── qcisghr
+│       ├── rain
+│       ├── rh          (不同气压层相对湿度)
+│       ├── t-lnp
+│       ├── uv-q
+│       ├── uv-t
+│       └── Wmax-T
 ├── casepic        (个例的图)
 │   ├── 8-120428
 │   ├── 8-130606
