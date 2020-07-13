@@ -1,9 +1,9 @@
 /nuist/p/work/liuxl/liuxl/ycy/
-├── 120428           日期都是MY方案的画图后处理(以下同)
-│   ├── dbz
-│   ├── dbz-ra
-│   ├── mcape
-│   ├── mcin
+├── 120428           (MY方案(不做源汇项)的画图后处理)
+│   ├── dbz          (雷达回波模拟)
+│   ├── dbz-ra       (雷达回波实况)
+│   ├── mcape        (cape能模拟)
+│   ├── mcin         (cin能模拟)
 │   ├── mesh
 │   ├── mesh-ra
 │   ├── qcisghr
@@ -11,11 +11,11 @@
 │   ├── uv-q
 │   ├── uv-t
 │   └── Wmax-T
-├── 130606
-│   ├── dbz
-│   ├── dbz-ra
-│   ├── mcape
-│   ├── mcin
+├── 130606           (MY方案(不做源汇项)的画图后处理)
+│   ├── dbz          (雷达回波模拟)
+│   ├── dbz-ra       (雷达回波实况)
+│   ├── mcape        (cape能模拟)
+│   ├── mcin         (cin能模拟)
 │   ├── mesh
 │   ├── mesh-ra
 │   ├── qcisghr
@@ -23,11 +23,11 @@
 │   ├── uv-q
 │   ├── uv-t
 │   └── Wmax-T
-├── 141003
-│   ├── dbz
-│   ├── dbz-ra
-│   ├── mcape
-│   ├── mcin
+├── 141003           (MY方案(不做源汇项)的画图后处理)
+│   ├── dbz          (雷达回波模拟)
+│   ├── dbz-ra       (雷达回波实况)
+│   ├── mcape        (cape能模拟)
+│   ├── mcin         (cin能模拟)
 │   ├── mesh
 │   ├── mesh-ra
 │   ├── omega
@@ -36,11 +36,11 @@
 │   ├── uv-q
 │   ├── uv-t
 │   └── Wmax-T
-├── 150519
-│   ├── dbz
-│   ├── dbz-ra
-│   ├── mcape
-│   ├── mcin
+├── 150519           (MY方案(不做源汇项)的画图后处理)
+│   ├── dbz          (雷达回波模拟)
+│   ├── dbz-ra       (雷达回波实况)
+│   ├── mcape        (cape能模拟)
+│   ├── mcin         (cin能模拟)
 │   ├── mesh
 │   ├── mesh-ra
 │   ├── omega
@@ -50,15 +50,15 @@
 │   ├── uv-t
 │   └── Wmax-T
 ├── 170714
-│   ├── dbz
+│   ├── dbz          (雷达回波模拟)
 │   ├── mesh
 │   ├── mesh-ra
 │   └── rain
 ├── 180610
 │   ├── chui
-│   ├── dbz
+│   ├── dbz          (雷达回波模拟)
 │   ├── dbz-ra
-│   ├── diaf                           (粒径出现概率占比--柱状图)
+│   ├── diaf         (粒径出现概率占比--柱状图)
 │   ├── hail
 │   ├── io
 │   ├── io-cloud
@@ -68,7 +68,7 @@
 │   ├── io-rain
 │   ├── io-snow
 │   ├── io-total
-│   ├── mcape
+│   ├── mcape        (cape能模拟)
 │   ├── mcin
 │   ├── mesh
 │   ├── mesh-ra
@@ -112,7 +112,7 @@
 │   ├── 9-130606
 │   ├── 9-141003
 │   └── 9-150519
-├── cromph               (融合降水)
+├── cromph               (cdo处理融合降水实况数据并画图)
 │   ├── 120428
 │   ├── 130606
 │   ├── 141003
@@ -139,36 +139,21 @@
 ├── eoa10
 │   ├── nx170607_mp10h.tar.gz
 │   └── nx170607_mp10.tar.gz
-├── grd                          (grads画图)
+├── grd               (2017年6月7日 cdo处理融合降水实况数据并画图)
 │   ├── 0607.nc
 │   ├── rain.000001.png
 │   ├── rain.000002.png
 │   ├── rain.000003.png
 │   ├── rain.000004.png
-│   ├── rain.000005.png
-│   ├── rain.000006.png
-│   ├── rain.000007.png
-│   ├── rain.000008.png
-│   ├── rain.000009.png
-│   ├── rain.000010.png
-│   ├── rain.000011.png
-│   ├── rain.000012.png
-│   ├── rain.000013.png
-│   ├── rain.000014.png
-│   ├── rain.000015.png
-│   ├── rain.000016.png
-│   ├── rain.000017.png
-│   ├── rain.000018.png
-│   ├── rain.000019.png
-│   ├── rain.000020.png
+│   ├── ...............
 │   ├── rain.000021.png
 │   ├── rain.000022.png
 │   ├── rain.000023.png
 │   ├── rain.000024.png
 │   └── rain-d2.ncl
-├── Gy-radar                  (guyuan雷达读取数据，ncl画图，雷达群里见PPT)
-│   ├── 130606
-│   ├── 150519
+├── Gy-radar           (固原雷达读取数据，ncl画图，具体雷达群里见PPT)
+│   ├── 130606         (CC2.0格式.V的雷达数据)
+│   ├── 150519         (CC2.0格式.V的雷达数据 空文件夹)
 │   ├── a.out
 │   ├── apdetect.f90
 │   ├── apdetect.o
@@ -195,10 +180,10 @@
 │   ├── module_wrf_data.f90
 │   ├── module_wrf_data.mod
 │   ├── module_wrf_data.o
-│   ├── nc120428
-│   ├── nc130606
-│   ├── nc141003
-│   ├── nc150519
+│   ├── nc120428          (12年04月28日个例实况雷达数据nc文件)
+│   ├── nc130606          (13年06月06日个例实况雷达数据nc文件)
+│   ├── nc141003          (14年10月03日个例实况雷达数据nc文件)
+│   ├── nc150519          (15年05月19日个例实况雷达数据nc文件)
 │   ├── radar2model
 │   ├── radar2model.f90
 │   ├── radar2model.o297922
@@ -394,21 +379,21 @@
 │   ├── dbz.ncl
 │   ├── uv-t.ncl
 │   └── uv-t.png
-├── wa
+├── wa             (垂直方向风速图Z-wind)
 │   └── line
-├── wback
-│   ├── 12
-│   ├── 13
-│   ├── 14
-│   ├── 15
-│   ├── 17
-│   ├── 18
+├── wback          (用EC初始场文件画等压面背景天气图 EC文件数据已删掉)
+│   ├── 12         (12年个例500hPa 700hPa 850hPa天气图)
+│   ├── 13         (13年个例500hPa 700hPa 850hPa天气图)
+│   ├── 14         (14年个例500hPa 700hPa 850hPa天气图)
+│   ├── 15         (15年个例500hPa 700hPa 850hPa天气图)
+│   ├── 17         (17年个例500hPa 700hPa 850hPa天气图)
+│   ├── 18         (18年个例500hPa 700hPa 850hPa天气图)
 │   ├── background.000001.png
 │   ├── background.000002.png
 │   ├── background.000003.png
 │   ├── background.png
 │   ├── var.out
-│   └── wback.ncl
+│   └── wback.ncl  (19年7月画)
 ├── windshear                (模拟探空图 station为怀俄明大学谈空数据)
 │   ├── 120428
 │   ├── 130606

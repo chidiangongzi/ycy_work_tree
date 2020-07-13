@@ -69,11 +69,11 @@
 ├── NCCN                   (6月7日个例修改4种CCN浓度  有 nudging)
 │   ├── cncode
 │   ├── jobname.err
-│   ├── n10000
-│   ├── n200
-│   ├── n2000
-│   ├── n50
-│   ├── ncn.tar.gz
+│   ├── n10000      (WRFV3/run目录的10000.tar.gz   101G)
+│   ├── n200      (WRFV3/run目录的200.tar.gz   101G)
+│   ├── n2000      (WRFV3/run目录的2000.tar.gz   101G)
+│   ├── n50      (WRFV3/run目录的50.tar.gz   100G)
+│   ├── ncn.tar.gz     (101G)
 │   ├── tar-200.o209485
 │   ├── tar.sh            (压缩数据的qsub脚本)
 │   ├── WRFV3

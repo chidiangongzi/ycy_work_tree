@@ -1,0 +1,1109 @@
+.
+├── 3.7
+│   ├── geo_em.d01.nc
+│   ├── geo_em.d02.nc
+│   ├── WPS
+│   │   ├── arch
+│   │   ├── clean
+│   │   ├── compile
+│   │   ├── configure
+│   │   ├── configure.wps
+│   │   ├── core.1984
+│   │   ├── FILE:2010-08-07_00
+│   │   ├── FILE:2010-08-07_06
+│   │   ├── FILE:2010-08-07_12
+│   │   ├── FILE:2010-08-07_18
+│   │   ├── FILE:2010-08-08_00
+│   │   ├── FILE:2018-03-03_18
+│   │   ├── FILE:2018-03-04_00
+│   │   ├── FILE:2018-03-04_06
+│   │   ├── FILE:2018-03-04_12
+│   │   ├── FILE:2018-03-04_18
+│   │   ├── geo_em.d01.nc
+│   │   ├── geo_em.d02.nc
+│   │   ├── geo_em.d03.nc
+│   │   ├── geogrid
+│   │   ├── geogrid.exe -> geogrid/src/geogrid.exe
+│   │   ├── geogrid.log
+│   │   ├── GRIBFILE.AAA -> /home/yuanchaoyu/tangjie/fnl/fnl_20100807_00_00.grib2
+│   │   ├── GRIBFILE.AAB -> /home/yuanchaoyu/tangjie/fnl/fnl_20100807_06_00.grib2
+│   │   ├── GRIBFILE.AAC -> /home/yuanchaoyu/tangjie/fnl/fnl_20100807_12_00.grib2
+│   │   ├── GRIBFILE.AAD -> /home/yuanchaoyu/tangjie/fnl/fnl_20100807_18_00.grib2
+│   │   ├── GRIBFILE.AAE -> /home/yuanchaoyu/tangjie/fnl/fnl_20100808_00_00.grib2
+│   │   ├── GRIBFILE.AAF -> ./
+│   │   ├── link_grib.csh
+│   │   ├── _mars-atls12-a562cefde8a29a7288fa0b8b7f9413f7-brhEw0.grib -> ../../grib/_mars-atls12-a562cefde8a29a7288fa0b8b7f9413f7-brhEw0.grib
+│   │   ├── met_em.d01.2010-08-07_00:00:00.nc
+│   │   ├── met_em.d01.2010-08-07_06:00:00.nc
+│   │   ├── met_em.d01.2010-08-07_12:00:00.nc
+│   │   ├── met_em.d01.2010-08-07_18:00:00.nc
+│   │   ├── met_em.d01.2010-08-08_00:00:00.nc
+│   │   ├── met_em.d01.2018-03-03_18:00:00.nc
+│   │   ├── met_em.d01.2018-03-04_00:00:00.nc
+│   │   ├── met_em.d01.2018-03-04_06:00:00.nc
+│   │   ├── met_em.d01.2018-03-04_12:00:00.nc
+│   │   ├── met_em.d01.2018-03-04_18:00:00.nc
+│   │   ├── met_em.d02.2010-08-07_00:00:00.nc
+│   │   ├── met_em.d02.2010-08-07_06:00:00.nc
+│   │   ├── met_em.d02.2010-08-07_12:00:00.nc
+│   │   ├── met_em.d02.2010-08-07_18:00:00.nc
+│   │   ├── met_em.d02.2010-08-08_00:00:00.nc
+│   │   ├── met_em.d02.2018-03-03_18:00:00.nc
+│   │   ├── met_em.d02.2018-03-04_00:00:00.nc
+│   │   ├── met_em.d02.2018-03-04_06:00:00.nc
+│   │   ├── met_em.d02.2018-03-04_12:00:00.nc
+│   │   ├── met_em.d02.2018-03-04_18:00:00.nc
+│   │   ├── met_em.d03.2010-08-07_00:00:00.nc
+│   │   ├── met_em.d03.2010-08-07_06:00:00.nc
+│   │   ├── met_em.d03.2010-08-07_12:00:00.nc
+│   │   ├── met_em.d03.2010-08-07_18:00:00.nc
+│   │   ├── met_em.d03.2010-08-08_00:00:00.nc
+│   │   ├── metgrid
+│   │   ├── metgrid.exe -> metgrid/src/metgrid.exe
+│   │   ├── metgrid.log
+│   │   ├── namelist-chaoyu.wps
+│   │   ├── namelist.wps
+│   │   ├── namelist.wps.all_options
+│   │   ├── namelist.wps.fire
+│   │   ├── namelist.wps.global
+│   │   ├── namelist.wps.nmm
+│   │   ├── PFILE:
+│   │   ├── README
+│   │   ├── ungrib
+│   │   ├── ungrib.exe -> ungrib/src/ungrib.exe
+│   │   ├── ungrib.log
+│   │   ├── util
+│   │   └── Vtable -> ungrib/Variable_Tables/Vtable.GFS
+│   ├── WPSV3.7.1.TAR.gz
+│   ├── WRFV3
+│   │   ├── arch
+│   │   ├── clean
+│   │   ├── compile
+│   │   ├── configure
+│   │   ├── configure.wrf
+│   │   ├── dyn_em
+│   │   ├── dyn_exp
+│   │   ├── dyn_nmm
+│   │   ├── external
+│   │   ├── frame
+│   │   ├── hydro
+│   │   ├── inc
+│   │   ├── main
+│   │   ├── Makefile
+│   │   ├── phys
+│   │   ├── README
+│   │   ├── README.DA
+│   │   ├── README.hydro
+│   │   ├── README.io_config
+│   │   ├── README.NMM
+│   │   ├── README.rsl_output
+│   │   ├── README.SSIB
+│   │   ├── README_test_cases
+│   │   ├── README.windturbine
+│   │   ├── Registry
+│   │   ├── run
+│   │   ├── share
+│   │   ├── test
+│   │   └── tools
+│   └── WRFV3.7.1.TAR.gz
+├── a.out
+├── atuorain
+│   ├── 2018061000.csv
+│   └── autorain.ncl
+├── be
+│   ├── csh
+│   │   ├── 00.out
+│   │   ├── 12.out
+│   │   ├── nohup.out
+│   │   ├── run_time12_00.csh
+│   │   ├── run_time12_12.csh
+│   │   ├── wrfv3.7.1_12.csh
+│   │   └── wrfv3.7.1.csh
+│   ├── DAWRF
+│   │   ├── 130606
+│   │   ├── 141003
+│   │   ├── 150519
+│   │   ├── 170607
+│   │   ├── 180610
+│   │   ├── WPSV3.7.1.TAR.gz -> ../../3.7/WPSV3.7.1.TAR.gz
+│   │   └── WRFV3.7.1.TAR.gz -> ../../3.7/WRFV3.7.1.TAR.gz
+│   ├── output
+│   │   ├── 2017060100
+│   │   ├── 2017060112
+│   │   ├── 2017060200
+│   │   ├── 2017060212
+│   │   ├── 2017060300
+│   │   ├── 2017060312
+│   │   ├── 2017060400
+│   │   ├── 2017060412
+│   │   ├── 2017060500
+│   │   ├── 2017060512
+│   │   ├── 2017060600
+│   │   ├── 2017060612
+│   │   ├── 2017060700
+│   │   ├── 2017060712
+│   │   ├── 2017060800
+│   │   ├── 2017060812
+│   │   ├── 2017060900
+│   │   ├── 2017060912
+│   │   ├── 2017061000
+│   │   ├── 2017061012
+│   │   ├── 2017061100
+│   │   ├── 2017061112
+│   │   ├── 2017061200
+│   │   ├── 2017061212
+│   │   ├── 2017061300
+│   │   ├── 2017061312
+│   │   ├── 2017061400
+│   │   ├── 2017061412
+│   │   ├── 2017061500
+│   │   ├── 2017061512
+│   │   ├── 2017061600
+│   │   ├── 2017061612
+│   │   ├── 2017061700
+│   │   ├── 2017061712
+│   │   ├── 2017061800
+│   │   ├── 2017061812
+│   │   ├── 2017061900
+│   │   ├── 2017061912
+│   │   ├── 2017062000
+│   │   ├── 2017062012
+│   │   ├── 2017062100
+│   │   ├── 2017062112
+│   │   ├── 2017062200
+│   │   ├── 2017062212
+│   │   ├── 2017062300
+│   │   ├── 2017062312
+│   │   ├── 2017062400
+│   │   ├── 2017062412
+│   │   ├── 2017062500
+│   │   ├── 2017062512
+│   │   ├── 2017062600
+│   │   ├── 2017062612
+│   │   ├── 2017062700
+│   │   ├── 2017062712
+│   │   ├── 2017062800
+│   │   ├── 2017062812
+│   │   ├── 2017062900
+│   │   └── 2017062912
+│   ├── picDA
+│   │   ├── 130606
+│   │   ├── 141003
+│   │   ├── 150519
+│   │   ├── 170607
+│   │   ├── 180610
+│   │   └── ts
+│   ├── WPS
+│   │   ├── arch
+│   │   ├── clean
+│   │   ├── compile
+│   │   ├── configure
+│   │   ├── configure.wps
+│   │   ├── FILE:2017-06-30_00
+│   │   ├── FILE:2017-06-30_06
+│   │   ├── FILE:2017-06-30_12
+│   │   ├── FILE:2017-06-30_18
+│   │   ├── geo_em.d01.nc
+│   │   ├── geogrid
+│   │   ├── geogrid.exe -> geogrid/src/geogrid.exe
+│   │   ├── geogrid.log
+│   │   ├── GRIBFILE.AAA -> /home/yuanchaoyu/ECMWF/2017/06/_mars-atls12-98f536083ae965b31b0d04811be6f4c6-x8AG2u.grib
+│   │   ├── GRIBFILE.AAB -> /home/yuanchaoyu/ECMWF/2017/06/_mars-atls13-a82bacafb5c306db76464bc7e824bb75-JrJs01.grib
+│   │   ├── link_grib.csh
+│   │   ├── met_em.d01.2017-06-30_00:00:00.nc
+│   │   ├── met_em.d01.2017-06-30_06:00:00.nc
+│   │   ├── met_em.d01.2017-06-30_12:00:00.nc
+│   │   ├── met_em.d01.2017-06-30_18:00:00.nc
+│   │   ├── metgrid
+│   │   ├── metgrid.exe -> metgrid/src/metgrid.exe
+│   │   ├── metgrid.log
+│   │   ├── namelist.wps
+│   │   ├── namelist.wps.all_options
+│   │   ├── namelist.wps.fire
+│   │   ├── namelist.wps.global
+│   │   ├── namelist.wps.nmm
+│   │   ├── PFILE:2017-06-01_00
+│   │   ├── PFILE:2017-06-01_06
+│   │   ├── PFILE:2017-06-01_12
+│   │   ├── PFILE:2017-06-01_18
+│   │   ├── PFILE:2017-06-02_00
+│   │   ├── PFILE:2017-06-02_06
+│   │   ├── PFILE:2017-06-02_12
+│   │   ├── PFILE:2017-06-02_18
+│   │   ├── PFILE:2017-06-03_00
+│   │   ├── PFILE:2017-06-03_06
+│   │   ├── PFILE:2017-06-03_12
+│   │   ├── PFILE:2017-06-03_18
+│   │   ├── PFILE:2017-06-04_00
+│   │   ├── PFILE:2017-06-04_06
+│   │   ├── PFILE:2017-06-04_12
+│   │   ├── PFILE:2017-06-04_18
+│   │   ├── PFILE:2017-06-05_00
+│   │   ├── PFILE:2017-06-05_06
+│   │   ├── PFILE:2017-06-05_12
+│   │   ├── PFILE:2017-06-05_18
+│   │   ├── PFILE:2017-06-06_00
+│   │   ├── PFILE:2017-06-06_06
+│   │   ├── PFILE:2017-06-06_12
+│   │   ├── PFILE:2017-06-06_18
+│   │   ├── PFILE:2017-06-07_00
+│   │   ├── PFILE:2017-06-07_06
+│   │   ├── PFILE:2017-06-07_12
+│   │   ├── PFILE:2017-06-07_18
+│   │   ├── PFILE:2017-06-08_00
+│   │   ├── PFILE:2017-06-08_06
+│   │   ├── PFILE:2017-06-08_12
+│   │   ├── PFILE:2017-06-08_18
+│   │   ├── PFILE:2017-06-09_00
+│   │   ├── PFILE:2017-06-09_06
+│   │   ├── PFILE:2017-06-09_12
+│   │   ├── PFILE:2017-06-09_18
+│   │   ├── PFILE:2017-06-10_00
+│   │   ├── PFILE:2017-06-10_06
+│   │   ├── PFILE:2017-06-10_12
+│   │   ├── PFILE:2017-06-10_18
+│   │   ├── PFILE:2017-06-11_00
+│   │   ├── PFILE:2017-06-11_06
+│   │   ├── PFILE:2017-06-11_12
+│   │   ├── PFILE:2017-06-11_18
+│   │   ├── PFILE:2017-06-12_00
+│   │   ├── PFILE:2017-06-12_06
+│   │   ├── PFILE:2017-06-12_12
+│   │   ├── PFILE:2017-06-12_18
+│   │   ├── PFILE:2017-06-13_00
+│   │   ├── PFILE:2017-06-13_06
+│   │   ├── PFILE:2017-06-13_12
+│   │   ├── PFILE:2017-06-13_18
+│   │   ├── PFILE:2017-06-14_00
+│   │   ├── PFILE:2017-06-14_06
+│   │   ├── PFILE:2017-06-14_12
+│   │   ├── PFILE:2017-06-14_18
+│   │   ├── PFILE:2017-06-15_00
+│   │   ├── PFILE:2017-06-15_06
+│   │   ├── PFILE:2017-06-15_12
+│   │   ├── PFILE:2017-06-15_18
+│   │   ├── PFILE:2017-06-16_00
+│   │   ├── PFILE:2017-06-16_06
+│   │   ├── PFILE:2017-06-16_12
+│   │   ├── PFILE:2017-06-16_18
+│   │   ├── PFILE:2017-06-17_00
+│   │   ├── PFILE:2017-06-17_06
+│   │   ├── PFILE:2017-06-17_12
+│   │   ├── PFILE:2017-06-17_18
+│   │   ├── PFILE:2017-06-18_00
+│   │   ├── PFILE:2017-06-18_06
+│   │   ├── PFILE:2017-06-18_12
+│   │   ├── PFILE:2017-06-18_18
+│   │   ├── PFILE:2017-06-19_00
+│   │   ├── PFILE:2017-06-19_06
+│   │   ├── PFILE:2017-06-19_12
+│   │   ├── PFILE:2017-06-19_18
+│   │   ├── PFILE:2017-06-20_00
+│   │   ├── PFILE:2017-06-20_06
+│   │   ├── PFILE:2017-06-20_12
+│   │   ├── PFILE:2017-06-20_18
+│   │   ├── PFILE:2017-06-21_00
+│   │   ├── PFILE:2017-06-21_06
+│   │   ├── PFILE:2017-06-21_12
+│   │   ├── PFILE:2017-06-21_18
+│   │   ├── PFILE:2017-06-22_00
+│   │   ├── PFILE:2017-06-22_06
+│   │   ├── PFILE:2017-06-22_12
+│   │   ├── PFILE:2017-06-22_18
+│   │   ├── PFILE:2017-06-23_00
+│   │   ├── PFILE:2017-06-23_06
+│   │   ├── PFILE:2017-06-23_12
+│   │   ├── PFILE:2017-06-23_18
+│   │   ├── PFILE:2017-06-24_00
+│   │   ├── PFILE:2017-06-24_06
+│   │   ├── PFILE:2017-06-24_12
+│   │   ├── PFILE:2017-06-24_18
+│   │   ├── PFILE:2017-06-25_00
+│   │   ├── PFILE:2017-06-25_06
+│   │   ├── PFILE:2017-06-25_12
+│   │   ├── PFILE:2017-06-25_18
+│   │   ├── PFILE:2017-06-26_00
+│   │   ├── PFILE:2017-06-26_06
+│   │   ├── PFILE:2017-06-26_12
+│   │   ├── PFILE:2017-06-26_18
+│   │   ├── PFILE:2017-06-27_00
+│   │   ├── PFILE:2017-06-27_06
+│   │   ├── PFILE:2017-06-27_12
+│   │   ├── PFILE:2017-06-27_18
+│   │   ├── PFILE:2017-06-28_00
+│   │   ├── PFILE:2017-06-28_06
+│   │   ├── PFILE:2017-06-28_12
+│   │   ├── PFILE:2017-06-28_18
+│   │   ├── PFILE:2017-06-29_00
+│   │   ├── PFILE:2017-06-29_06
+│   │   ├── PFILE:2017-06-29_12
+│   │   ├── PFILE:2017-06-29_18
+│   │   ├── PFILE:2017-06-30_00
+│   │   ├── PFILE:2017-06-30_06
+│   │   ├── PFILE:2017-06-30_12
+│   │   ├── PFILE:2017-06-30_18
+│   │   ├── README
+│   │   ├── ungrib
+│   │   ├── ungrib.exe -> ungrib/src/ungrib.exe
+│   │   ├── ungrib.log
+│   │   ├── util
+│   │   └── Vtable -> ./ungrib/Variable_Tables/Vtable.ECMWF
+│   ├── WPS2
+│   │   ├── arch
+│   │   ├── clean
+│   │   ├── compile
+│   │   ├── configure
+│   │   ├── configure.wps
+│   │   ├── FILE:2017-06-30_12
+│   │   ├── FILE:2017-06-30_18
+│   │   ├── geo_em.d01.nc
+│   │   ├── geogrid
+│   │   ├── geogrid.exe -> geogrid/src/geogrid.exe
+│   │   ├── geogrid.log
+│   │   ├── GRIBFILE.AAA -> /home/yuanchaoyu/ECMWF/2017/06/_mars-atls12-98f536083ae965b31b0d04811be6f4c6-x8AG2u.grib
+│   │   ├── GRIBFILE.AAB -> /home/yuanchaoyu/ECMWF/2017/06/_mars-atls13-a82bacafb5c306db76464bc7e824bb75-JrJs01.grib
+│   │   ├── link_grib.csh
+│   │   ├── met_em.d01.2017-06-30_12:00:00.nc
+│   │   ├── met_em.d01.2017-06-30_18:00:00.nc
+│   │   ├── metgrid
+│   │   ├── metgrid.exe -> metgrid/src/metgrid.exe
+│   │   ├── metgrid.log
+│   │   ├── namelist.wps
+│   │   ├── namelist.wps.all_options
+│   │   ├── namelist.wps.fire
+│   │   ├── namelist.wps.global
+│   │   ├── namelist.wps.nmm
+│   │   ├── PFILE:2017-06-01_00
+│   │   ├── PFILE:2017-06-01_06
+│   │   ├── PFILE:2017-06-01_12
+│   │   ├── PFILE:2017-06-01_18
+│   │   ├── PFILE:2017-06-02_00
+│   │   ├── PFILE:2017-06-02_06
+│   │   ├── PFILE:2017-06-02_12
+│   │   ├── PFILE:2017-06-02_18
+│   │   ├── PFILE:2017-06-03_00
+│   │   ├── PFILE:2017-06-03_06
+│   │   ├── PFILE:2017-06-03_12
+│   │   ├── PFILE:2017-06-03_18
+│   │   ├── PFILE:2017-06-04_00
+│   │   ├── PFILE:2017-06-04_06
+│   │   ├── PFILE:2017-06-04_12
+│   │   ├── PFILE:2017-06-04_18
+│   │   ├── PFILE:2017-06-05_00
+│   │   ├── PFILE:2017-06-05_06
+│   │   ├── PFILE:2017-06-05_12
+│   │   ├── PFILE:2017-06-05_18
+│   │   ├── PFILE:2017-06-06_00
+│   │   ├── PFILE:2017-06-06_06
+│   │   ├── PFILE:2017-06-06_12
+│   │   ├── PFILE:2017-06-06_18
+│   │   ├── PFILE:2017-06-07_00
+│   │   ├── PFILE:2017-06-07_06
+│   │   ├── PFILE:2017-06-07_12
+│   │   ├── PFILE:2017-06-07_18
+│   │   ├── PFILE:2017-06-08_00
+│   │   ├── PFILE:2017-06-08_06
+│   │   ├── PFILE:2017-06-08_12
+│   │   ├── PFILE:2017-06-08_18
+│   │   ├── PFILE:2017-06-09_00
+│   │   ├── PFILE:2017-06-09_06
+│   │   ├── PFILE:2017-06-09_12
+│   │   ├── PFILE:2017-06-09_18
+│   │   ├── PFILE:2017-06-10_00
+│   │   ├── PFILE:2017-06-10_06
+│   │   ├── PFILE:2017-06-10_12
+│   │   ├── PFILE:2017-06-10_18
+│   │   ├── PFILE:2017-06-11_00
+│   │   ├── PFILE:2017-06-11_06
+│   │   ├── PFILE:2017-06-11_12
+│   │   ├── PFILE:2017-06-11_18
+│   │   ├── PFILE:2017-06-12_00
+│   │   ├── PFILE:2017-06-12_06
+│   │   ├── PFILE:2017-06-12_12
+│   │   ├── PFILE:2017-06-12_18
+│   │   ├── PFILE:2017-06-13_00
+│   │   ├── PFILE:2017-06-13_06
+│   │   ├── PFILE:2017-06-13_12
+│   │   ├── PFILE:2017-06-13_18
+│   │   ├── PFILE:2017-06-14_00
+│   │   ├── PFILE:2017-06-14_06
+│   │   ├── PFILE:2017-06-14_12
+│   │   ├── PFILE:2017-06-14_18
+│   │   ├── PFILE:2017-06-15_00
+│   │   ├── PFILE:2017-06-15_06
+│   │   ├── PFILE:2017-06-15_12
+│   │   ├── PFILE:2017-06-15_18
+│   │   ├── PFILE:2017-06-16_00
+│   │   ├── PFILE:2017-06-16_06
+│   │   ├── PFILE:2017-06-16_12
+│   │   ├── PFILE:2017-06-16_18
+│   │   ├── PFILE:2017-06-17_00
+│   │   ├── PFILE:2017-06-17_06
+│   │   ├── PFILE:2017-06-17_12
+│   │   ├── PFILE:2017-06-17_18
+│   │   ├── PFILE:2017-06-18_00
+│   │   ├── PFILE:2017-06-18_06
+│   │   ├── PFILE:2017-06-18_12
+│   │   ├── PFILE:2017-06-18_18
+│   │   ├── PFILE:2017-06-19_00
+│   │   ├── PFILE:2017-06-19_06
+│   │   ├── PFILE:2017-06-19_12
+│   │   ├── PFILE:2017-06-19_18
+│   │   ├── PFILE:2017-06-20_00
+│   │   ├── PFILE:2017-06-20_06
+│   │   ├── PFILE:2017-06-20_12
+│   │   ├── PFILE:2017-06-20_18
+│   │   ├── PFILE:2017-06-21_00
+│   │   ├── PFILE:2017-06-21_06
+│   │   ├── PFILE:2017-06-21_12
+│   │   ├── PFILE:2017-06-21_18
+│   │   ├── PFILE:2017-06-22_00
+│   │   ├── PFILE:2017-06-22_06
+│   │   ├── PFILE:2017-06-22_12
+│   │   ├── PFILE:2017-06-22_18
+│   │   ├── PFILE:2017-06-23_00
+│   │   ├── PFILE:2017-06-23_06
+│   │   ├── PFILE:2017-06-23_12
+│   │   ├── PFILE:2017-06-23_18
+│   │   ├── PFILE:2017-06-24_00
+│   │   ├── PFILE:2017-06-24_06
+│   │   ├── PFILE:2017-06-24_12
+│   │   ├── PFILE:2017-06-24_18
+│   │   ├── PFILE:2017-06-25_00
+│   │   ├── PFILE:2017-06-25_06
+│   │   ├── PFILE:2017-06-25_12
+│   │   ├── PFILE:2017-06-25_18
+│   │   ├── PFILE:2017-06-26_00
+│   │   ├── PFILE:2017-06-26_06
+│   │   ├── PFILE:2017-06-26_12
+│   │   ├── PFILE:2017-06-26_18
+│   │   ├── PFILE:2017-06-27_00
+│   │   ├── PFILE:2017-06-27_06
+│   │   ├── PFILE:2017-06-27_12
+│   │   ├── PFILE:2017-06-27_18
+│   │   ├── PFILE:2017-06-28_00
+│   │   ├── PFILE:2017-06-28_06
+│   │   ├── PFILE:2017-06-28_12
+│   │   ├── PFILE:2017-06-28_18
+│   │   ├── PFILE:2017-06-29_00
+│   │   ├── PFILE:2017-06-29_06
+│   │   ├── PFILE:2017-06-29_12
+│   │   ├── PFILE:2017-06-29_18
+│   │   ├── PFILE:2017-06-30_00
+│   │   ├── PFILE:2017-06-30_06
+│   │   ├── PFILE:2017-06-30_12
+│   │   ├── PFILE:2017-06-30_18
+│   │   ├── README
+│   │   ├── ungrib
+│   │   ├── ungrib.exe -> ungrib/src/ungrib.exe
+│   │   ├── ungrib.log
+│   │   ├── util
+│   │   └── Vtable -> ./ungrib/Variable_Tables/Vtable.ECMWF
+│   ├── WPSV3.7.1.TAR.gz -> ../3.7/WPSV3.7.1.TAR.gz
+│   ├── WRFDA
+│   │   ├── arch
+│   │   ├── clean
+│   │   ├── compile
+│   │   ├── compile.out
+│   │   ├── configure
+│   │   ├── configure.wrf
+│   │   ├── DA
+│   │   ├── dyn_em
+│   │   ├── dyn_exp
+│   │   ├── external
+│   │   ├── frame
+│   │   ├── inc
+│   │   ├── main
+│   │   ├── Makefile
+│   │   ├── phys
+│   │   ├── README.DA
+│   │   ├── README.io_config
+│   │   ├── Registry
+│   │   ├── run
+│   │   ├── share
+│   │   ├── test
+│   │   ├── tools
+│   │   └── var
+│   ├── WRFDA_V3.7.1.tar
+│   ├── WRFV3
+│   │   ├── a.out
+│   │   ├── arch
+│   │   ├── clean
+│   │   ├── compile
+│   │   ├── configure
+│   │   ├── configure.wrf
+│   │   ├── dyn_em
+│   │   ├── dyn_exp
+│   │   ├── dyn_nmm
+│   │   ├── external
+│   │   ├── frame
+│   │   ├── hydro
+│   │   ├── inc
+│   │   ├── main
+│   │   ├── Makefile
+│   │   ├── phys
+│   │   ├── README
+│   │   ├── README.DA
+│   │   ├── README.hydro
+│   │   ├── README.io_config
+│   │   ├── README.NMM
+│   │   ├── README.rsl_output
+│   │   ├── README.SSIB
+│   │   ├── README_test_cases
+│   │   ├── README.windturbine
+│   │   ├── Registry
+│   │   ├── run
+│   │   ├── share
+│   │   ├── test
+│   │   └── tools
+│   └── WRFV3.7.1.TAR.gz -> ../3.7/WRFV3.7.1.TAR.gz
+├── biyelunwen
+│   ├── 141003
+│   │   ├── io
+│   │   ├── io-cloud
+│   │   ├── io-graupel
+│   │   ├── io-hail
+│   │   ├── io-ice
+│   │   ├── io-rain
+│   │   ├── io-snow
+│   │   ├── io-total
+│   │   ├── qcisghr
+│   │   ├── rh
+│   │   ├── t-lnp
+│   │   └── Wmax-T
+│   └── qvstantion
+│       ├── 130606.txt
+│       ├── 141003.txt
+│       ├── 150519.txt
+│       ├── 170607.txt
+│       ├── 180610.txt
+│       ├── Qvsta.000001.png
+│       ├── Qvsta.000002.png
+│       ├── Qvsta.000003.png
+│       ├── Qvsta.000004.png
+│       ├── Qvsta.000005.png
+│       ├── Qvsta.000006.png
+│       ├── Qvsta.000007.png
+│       ├── Qvsta.000008.png
+│       ├── Qvsta.000009.png
+│       ├── Qvsta.000010.png
+│       ├── Qvsta.000011.png
+│       └── wshear.ncl
+├── cmorph       (融合降水grd产品)
+│   ├── 20130606
+│   ├── 20141003
+│   ├── 20150519
+│   └── 20170607
+├── Desktop      (空)
+├── Documents    (空)
+├── domain
+│   └── 111
+│       ├── GEOGRID.TBL
+│       ├── METGRID.TBL
+│       ├── namelist.input
+│       ├── namelist.wps
+│       ├── nest7grid_d02.parms
+│       ├── nest7grid.parms
+│       ├── projection.jpg
+│       ├── Vtable -> /home/yuanchaoyu/wrf/WPS/ungrib/Variable_Tables/Vtable.GFS
+│       └── Vtable.GFS -> /home/yuanchaoyu/wrf/WPS/ungrib/Variable_Tables/Vtable.GFS
+├── Downloads
+├── ECMWF
+│   ├── 2012
+│   │   └── 04
+│   ├── 2013
+│   │   └── 06
+│   ├── 2014
+│   │   └── 10
+│   ├── 2015
+│   │   └── 05
+│   ├── 2017
+│   │   ├── 06
+│   │   └── 07
+│   ├── 2018
+│   │   └── 06
+│   └── 2019
+│       └── 07
+├── fnl          (fnl初始场数据)
+│   ├── fnl_20170606_00_00.grib2
+│   ├── fnl_20170606_06_00.grib2
+│   ├── fnl_20170606_12_00.grib2
+│   ├── fnl_20170606_18_00.grib2
+│   ├── fnl_20170607_00_00.grib2
+│   ├── fnl_20170607_06_00.grib2
+│   ├── fnl_20170607_12_00.grib2
+│   ├── fnl_20170607_18_00.grib2
+│   └── fnl_20170608_00_00.grib2
+├── fnl2         (fnl初始场数据)
+│   ├── fnl_20180303_18_00.grib2
+│   ├── fnl_20180304_00_00.grib2
+│   ├── fnl_20180304_06_00.grib2
+│   ├── fnl_20180304_12_00.grib2
+│   └── fnl_20180304_18_00.grib2
+├── grib         (ecmwf初始场数据)
+│   ├── _mars-atls04-98f536083ae965b31b0d04811be6f4c6-Ji83fR.grib
+│   └── _mars-atls12-a562cefde8a29a7288fa0b8b7f9413f7-brhEw0.grib
+├── ht -> /hometemp/ycy
+├── ht2 -> /hometemp2/ycy/
+├── intel
+│   └── ism
+│       └── rm
+├── Music        (空)
+├── MY
+│   ├── module_microphysics_driver.F
+│   ├── module_mp_milbrandt2mom.F
+│   ├── Registry.EM_COMMON
+│   └── solve_em.F
+├── namelist.txt
+├── p
+│   ├── 0606-10
+│   │   ├── rain-d1
+│   │   └── rain-d2
+│   ├── 0606-8-E
+│   │   ├── rain-d1
+│   │   └── rain-d2
+│   ├── 0606-9-E
+│   │   ├── rain-d1
+│   │   └── rain-d2
+│   ├── 34
+│   │   ├── 1
+│   │   ├── 2
+│   │   ├── dbz
+│   │   ├── w
+│   │   └── zhu
+│   ├── dbz-201806-gt55.png
+│   └── rainbl.ncl
+├── pic-adjust
+│   ├── 10000
+│   │   ├── dbz
+│   │   ├── dbzl
+│   │   ├── diaf
+│   │   ├── dia-h
+│   │   ├── dia-T
+│   │   ├── hail
+│   │   ├── hn-T
+│   │   ├── hq-T
+│   │   ├── io
+│   │   ├── mesh
+│   │   ├── nom
+│   │   ├── qcisghr
+│   │   ├── rain
+│   │   └── uv-t
+│   ├── 200
+│   │   ├── dbz
+│   │   ├── hail
+│   │   ├── io
+│   │   ├── mesh
+│   │   ├── qcisghr
+│   │   └── rain
+│   ├── 2000
+│   │   ├── dbz
+│   │   ├── hail
+│   │   ├── io
+│   │   ├── mesh
+│   │   ├── qcisghr
+│   │   └── rain
+│   ├── 50
+│   │   ├── dbz
+│   │   ├── hail
+│   │   ├── io
+│   │   ├── mesh
+│   │   ├── qcisghr
+│   │   └── rain
+│   ├── cnis
+│   │   ├── cnis.ncl
+│   │   ├── qcnis.000001.png
+│   │   ├── qcnis.000002.png
+│   │   ├── qcnis.000003.png
+│   │   ├── qcnis.000004.png
+│   │   ├── qcnis.000005.png
+│   │   ├── qcnis.000006.png
+│   │   ├── qcnis.000007.png
+│   │   ├── qcnis.000008.png
+│   │   ├── qcnis.000009.png
+│   │   ├── qcnis.000010.png
+│   │   ├── qcnis.000011.png
+│   │   ├── qcnis.000012.png
+│   │   ├── qcnis.000013.png
+│   │   ├── qcnis.000014.png
+│   │   ├── qcnis.000015.png
+│   │   ├── qcnis.000016.png
+│   │   ├── qcnis.000017.png
+│   │   ├── qcnis.000018.png
+│   │   ├── qcnis.000019.png
+│   │   ├── qcnis.000020.png
+│   │   ├── qcnis.000021.png
+│   │   ├── qcnis.000022.png
+│   │   ├── qcnis.000023.png
+│   │   ├── qcnis.000024.png
+│   │   ├── qcnis.000025.png
+│   │   ├── qcnis.000026.png
+│   │   ├── qcnis.000027.png
+│   │   ├── qcnis.000028.png
+│   │   ├── qcnis.000029.png
+│   │   ├── qcnis.000030.png
+│   │   ├── qcnis.000031.png
+│   │   ├── qcnis.000032.png
+│   │   ├── qcnis.000033.png
+│   │   ├── qcnis.000034.png
+│   │   ├── qcnis.000035.png
+│   │   ├── qcnis.000036.png
+│   │   ├── qcnis.000037.png
+│   │   ├── qcnis.000038.png
+│   │   ├── qcnis.000039.png
+│   │   ├── qcnis.000040.png
+│   │   ├── qcnis.000041.png
+│   │   ├── qcnis.000042.png
+│   │   ├── qcnis.000043.png
+│   │   ├── qcnis.000044.png
+│   │   ├── qcnis.000045.png
+│   │   ├── qcnis.000046.png
+│   │   ├── qcnis.000047.png
+│   │   ├── qcnis.000048.png
+│   │   ├── qcnis.000049.png
+│   │   ├── qcnis.000050.png
+│   │   ├── qcnis.000051.png
+│   │   ├── qcnis.000052.png
+│   │   ├── qcnis.000053.png
+│   │   ├── qcnis.000054.png
+│   │   ├── qcnis.000055.png
+│   │   ├── qcnis.000056.png
+│   │   ├── qcnis.000057.png
+│   │   ├── qcnis.000058.png
+│   │   ├── qcnis.000059.png
+│   │   ├── qcnis.000060.png
+│   │   ├── qcnis.000061.png
+│   │   ├── qcnis.000062.png
+│   │   ├── qcnis.000063.png
+│   │   ├── qcnis.000064.png
+│   │   ├── qcnis.000065.png
+│   │   ├── qcnis.000066.png
+│   │   ├── qcnis.000067.png
+│   │   ├── qcnis.000068.png
+│   │   ├── qcnis.000069.png
+│   │   ├── qcnis.000070.png
+│   │   ├── qcnis.000071.png
+│   │   ├── qcnis.000072.png
+│   │   ├── qcnis.000073.png
+│   │   ├── qcnis.000074.png
+│   │   ├── qcnis.000075.png
+│   │   ├── qcnis.000076.png
+│   │   ├── qcnis.000077.png
+│   │   ├── qcnis.000078.png
+│   │   ├── qcnis.000079.png
+│   │   ├── qcnis.000080.png
+│   │   ├── qcnis.000081.png
+│   │   ├── qcnis.000082.png
+│   │   ├── qcnis.000083.png
+│   │   ├── qcnis.000084.png
+│   │   ├── qcnis.000085.png
+│   │   ├── qcnis.000086.png
+│   │   ├── qcnis.000087.png
+│   │   ├── qcnis.000088.png
+│   │   ├── qcnis.000089.png
+│   │   ├── qcnis.000090.png
+│   │   └── qcnis.000091.png
+│   ├── Dm
+│   │   ├── 10000
+│   │   ├── 200
+│   │   ├── 2000
+│   │   └── 50
+│   ├── numbercon
+│   │   ├── c
+│   │   ├── g
+│   │   ├── h
+│   │   ├── i
+│   │   ├── nombercon.ncl
+│   │   ├── r
+│   │   └── s
+│   ├── numgio
+│   │   ├── ncngh
+│   │   ├── ncnsg
+│   │   ├── ncnsg-t
+│   │   ├── nmlgr
+│   │   ├── nmlgr-t
+│   │   ├── nmlhr
+│   │   └── nmlhr-t
+│   ├── Wmax
+│   │   ├── 6
+│   │   ├── 8
+│   │   ├── 9
+│   │   ├── jobname.err
+│   │   ├── NCCN
+│   │   ├── sub-s.sh
+│   │   ├── W-max.ncl
+│   │   ├── Wmax-T.000001.png
+│   │   ├── Wmax-T.000002.png
+│   │   ├── Wmax-T.000003.png
+│   │   └── Wmax-T.000004.png
+│   └── Wmax-T
+│       ├── Wmax-T.ncl
+│       └── Wmax-T.png
+├── Pictures
+├── Public
+├── ra
+│   ├── namelist.txt
+│   ├── parallel.sh
+│   ├── radar
+│   │   ├── apdetect.f90
+│   │   ├── apdetect.o
+│   │   ├── background.in
+│   │   ├── bytes.mod
+│   │   ├── date_pack.mod
+│   │   ├── fort.2002
+│   │   ├── grid.inc
+│   │   ├── Makefile
+│   │   ├── Makefilebak
+│   │   ├── maproj3d.f90
+│   │   ├── maproj3d.o
+│   │   ├── module_bytes.f90
+│   │   ├── module_bytes.o
+│   │   ├── module_date_pack.f90
+│   │   ├── module_date_pack.o
+│   │   ├── module_radar_databak.f90
+│   │   ├── module_radar_dataCB.f90
+│   │   ├── module_radar_data.f90
+│   │   ├── module_radar_data.o
+│   │   ├── module_radar_site.f90
+│   │   ├── module_string.f90
+│   │   ├── module_string.mod
+│   │   ├── module_string.o
+│   │   ├── module_wrf_data.f90
+│   │   ├── module_wrf_data.mod
+│   │   ├── module_wrf_data.o
+│   │   ├── namelist.txt
+│   │   ├── radar2model
+│   │   ├── radar2model.f90
+│   │   ├── radar2model.o
+│   │   ├── radar2modelZ9951
+│   │   ├── radar2modelZ9951.f90
+│   │   ├── radar2modelZ9951.o
+│   │   ├── radar2modelZ9953
+│   │   ├── radar2modelZ9953.f90
+│   │   ├── radar2modelZ9953.o
+│   │   ├── radar_data.mod
+│   │   ├── radar_infobak2.txt
+│   │   ├── radar_infobak.txt
+│   │   ├── radar_info.txt
+│   │   ├── radarlib3d.f90
+│   │   ├── radarlib3d.o
+│   │   ├── readme.pdf
+│   │   ├── remaplibbak.f90
+│   │   ├── remaplib.f90
+│   │   ├── remaplib.o
+│   │   ├── remaptilt.f90
+│   │   ├── remaptilt.o
+│   │   ├── test
+│   │   ├── test.zip
+│   │   ├── timelib3d.f90
+│   │   ├── timelib3d.o
+│   │   ├── unfldlib.f90
+│   │   ├── unfldlib.o
+│   │   ├── unfold.f90
+│   │   ├── unfold.o
+│   │   ├── wrfout_d01_2019-09-18_06:00:00
+│   │   ├── Z9951.input
+│   │   ├── Z9951.radar
+│   │   ├── Z9953.input
+│   │   ├── Z_RADR_I_Z9951_20190918070400_O_DOR_CA_CAP.bin
+│   │   └── Z_RADR_I_Z9953_20190918070000_O_DOR_CA_CAP.bin
+│   ├── Z9951.csh
+│   └── Z9953.csh
+├── radar
+│   ├── apdetect.f90
+│   ├── apdetect.o
+│   ├── background.input
+│   ├── bytes.mod
+│   ├── date_pack.mod
+│   ├── fort.2002
+│   ├── grid.inc
+│   ├── Makefile
+│   ├── Makefilebak
+│   ├── maproj3d.f90
+│   ├── maproj3d.o
+│   ├── module_bytes.f90
+│   ├── module_bytes.o
+│   ├── module_date_pack.f90
+│   ├── module_date_pack.o
+│   ├── module_radar_data.f90
+│   ├── module_radar_data.o
+│   ├── module_radar_site.f90
+│   ├── module_string.f90
+│   ├── module_string.mod
+│   ├── module_string.o
+│   ├── module_wrf_data.f90
+│   ├── module_wrf_data.mod
+│   ├── module_wrf_data.o
+│   ├── radar2model
+│   ├── radar2model.f90
+│   ├── radar2model.o
+│   ├── radar_data.mod
+│   ├── radar_infobak2.txt
+│   ├── radar_infobak.txt
+│   ├── radar_info.txt
+│   ├── radar.input
+│   ├── radarlib3d.f90
+│   ├── radarlib3d.o
+│   ├── radarob
+│   │   ├── ob.radar2017060312
+│   │   ├── ob.radar2017060400
+│   │   ├── ob.radar2017060406
+│   │   ├── ob.radar2017060412
+│   │   ├── ob.radar2017060500
+│   │   ├── ob.radar2017061300
+│   │   ├── ob.radar2017061400
+│   │   ├── ob.radar2017061600
+│   │   └── ob.radar2017061700
+│   ├── readme.pdf
+│   ├── remaplib.f90
+│   ├── remaplib.o
+│   ├── remaptilt.f90
+│   ├── remaptilt.o
+│   ├── timelib3d.f90
+│   ├── timelib3d.o
+│   ├── unfldlib.f90
+│   ├── unfldlib.o
+│   ├── unfold.f90
+│   ├── unfold.o
+│   └── wrfout.d01.2018-03-03_18:00:00
+├── radarcb
+│   ├── ob.radar^M
+│   ├── para.csh
+│   ├── ra
+│   │   ├── Z_RADR_I_Z9954_20170607000544_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607002917_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607003512_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607013408_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607014545_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607015135_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607021520_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607022656_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607024438_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607025633_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607032037_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607032628_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607033230_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607040726_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607042446_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607043041_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607043645_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607045411_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607054126_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607054723_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607055916_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607060505_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607061659_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607062842_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607065823_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607070421_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607071612_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607074021_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607080432_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607081037_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607083505_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607090536_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607091131_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607091734_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607095405_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607100011_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607101224_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607103656_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607104912_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607105509_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607110120_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607111920_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607113726_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607114325_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607114925_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607115534_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607121343_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607123808_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607124415_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607125019_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607125628_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607133245_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607135055_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607135707_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607142125_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607143323_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607145125_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607145724_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607152738_O_DOR_CD_CAP.bin
+│   │   ├── Z_RADR_I_Z9954_20170607153340_O_DOR_CD_CAP.bin
+│   │   └── Z_RADR_I_Z9954_20170607155145_O_DOR_CD_CAP.bin
+│   ├── Z9953
+│   │   └── radarob
+│   └── Z9954
+│       └── radarob
+├── radar.tar.gz
+├── rcautr-adjust
+│   ├── 8-NCCN
+│   │   ├── 10000
+│   │   ├── 200
+│   │   ├── 2000
+│   │   └── 50
+│   ├── code
+│   │   ├── module_microphysics_driver.F
+│   │   ├── module_mp_thompson.F
+│   │   ├── Registry.EM_COMMON
+│   │   └── solve_em.F
+│   ├── pic
+│   │   ├── dbz
+│   │   └── rain
+│   ├── pic-adjust
+│   │   ├── 10000
+│   │   ├── 200
+│   │   ├── 2000
+│   │   ├── 50
+│   │   ├── analy-qcisghr
+│   │   ├── cnis
+│   │   ├── Dm
+│   │   ├── numbercon
+│   │   ├── numgio
+│   │   ├── Wmax
+│   │   └── Wmax-T
+│   └── WRFV3
+│       ├── arch
+│       ├── clean
+│       ├── compile
+│       ├── compile_wrf.out
+│       ├── configure
+│       ├── configure.wrf
+│       ├── configure.wrf.backup
+│       ├── dyn_em
+│       ├── dyn_exp
+│       ├── dyn_nmm
+│       ├── external
+│       ├── frame
+│       ├── hydro
+│       ├── inc
+│       ├── main
+│       ├── Makefile
+│       ├── phys
+│       ├── README
+│       ├── README.DA
+│       ├── README.hydro
+│       ├── README.io_config
+│       ├── README.NMM
+│       ├── README.rsl_output
+│       ├── README.SSIB
+│       ├── README_test_cases
+│       ├── README.windturbine
+│       ├── Registry
+│       ├── run
+│       ├── share
+│       ├── test
+│       └── tools
+├── Templates
+├── thompson
+│   ├── module_microphysics_driver.F
+│   ├── module_mp_thompson.F
+│   ├── Registry.EM_COMMON
+│   └── solve_em.F
+├── t-lnp
+│   ├── color-red-blue-nointerp.ncl
+│   ├── skewt_func.ncl
+│   └── T-lnP.png
+└── tmp
+
+326 directories, 875 files
