@@ -4,87 +4,114 @@
 │   ├── dbz-ra       (雷达回波实况)
 │   ├── mcape        (cape能模拟)
 │   ├── mcin         (cin能模拟)
-│   ├── mesh
-│   ├── mesh-ra
-│   ├── qcisghr
-│   ├── rain
-│   ├── uv-q
-│   ├── uv-t
-│   └── Wmax-T
+│   ├── mesh         (由模拟的雷达反射了和计算得到的冰雹最大估计尺寸)
+│   ├── mesh-ra      (由固原雷达nc雷达反射率和模拟的高度计算得到的冰雹最大估计尺寸)
+│   ├── qcisghr      (模拟的水凝物粒子比含水量的垂直分布)
+│   ├── rain         (模拟的累计降水)
+│   ├── uv-q         (模拟的风场叠加相对湿度)
+│   ├── uv-t         (模拟的风场叠加温度)
+│   └── Wmax-T       (模拟的最大上升气流小时时间序列图)
 ├── 130606           (MY方案(不做源汇项)的画图后处理)
 │   ├── dbz          (雷达回波模拟)
 │   ├── dbz-ra       (雷达回波实况)
 │   ├── mcape        (cape能模拟)
 │   ├── mcin         (cin能模拟)
-│   ├── mesh
-│   ├── mesh-ra
-│   ├── qcisghr
-│   ├── rain
-│   ├── uv-q
-│   ├── uv-t
-│   └── Wmax-T
+│   ├── mesh         (由模拟的雷达反射了和计算得到的冰雹最大估计尺寸)
+│   ├── mesh-ra      (由固原雷达nc雷达反射率和模拟的高度计算得到的冰雹最大估计尺寸)
+│   ├── qcisghr      (模拟的水凝物粒子比含水量的垂直分布)
+│   ├── rain         (模拟的累计降水)
+│   ├── uv-q         (模拟的风场叠加相对湿度)
+│   ├── uv-t         (模拟的风场叠加温度)
+│   └── Wmax-T       (模拟的最大上升气流小时时间序列图)
 ├── 141003           (MY方案(不做源汇项)的画图后处理)
 │   ├── dbz          (雷达回波模拟)
 │   ├── dbz-ra       (雷达回波实况)
 │   ├── mcape        (cape能模拟)
 │   ├── mcin         (cin能模拟)
-│   ├── mesh
-│   ├── mesh-ra
-│   ├── omega
-│   ├── qcisghr
-│   ├── rain
-│   ├── uv-q
-│   ├── uv-t
-│   └── Wmax-T
+│   ├── mesh         (由模拟的雷达反射了和高度计算得到的冰雹最大估计尺寸)
+│   ├── mesh-ra      (由固原雷达nc雷达反射率和模拟的高度计算得到的冰雹最大估计尺寸)
+│   ├── omega        (模拟区域最大过饱和度垂直分布)
+│		│		├── ei       (模拟区域最大冰面过饱和度垂直分布)
+│		│ 	└── ew       (模拟区域最大水面过饱和度垂直分布)
+│   ├── qcisghr      (模拟的水凝物粒子比含水量的垂直分布)
+│   ├── rain         (模拟的累计降水)
+│   ├── uv-q         (模拟的风场叠加相对湿度)
+│   ├── uv-t         (模拟的风场叠加温度)
+│   └── Wmax-T       (模拟的最大上升气流小时时间序列图)
 ├── 150519           (MY方案(不做源汇项)的画图后处理)
 │   ├── dbz          (雷达回波模拟)
 │   ├── dbz-ra       (雷达回波实况)
 │   ├── mcape        (cape能模拟)
 │   ├── mcin         (cin能模拟)
-│   ├── mesh
-│   ├── mesh-ra
-│   ├── omega
-│   ├── qcisghr
-│   ├── rain
-│   ├── uv-q
-│   ├── uv-t
-│   └── Wmax-T
-├── 170714
+│   ├── mesh         (由模拟的雷达反射了和计算得到的冰雹最大估计尺寸)
+│   ├── mesh-ra      (由固原雷达nc雷达反射率和模拟的高度计算得到的冰雹最大估计尺寸)
+│   ├── omega        (模拟区域最大过饱和度垂直分布)
+│		│		├── ei       (模拟区域最大冰面过饱和度垂直分布)
+│		│ 	└── ew       (模拟区域最大水面过饱和度垂直分布)
+│   ├── qcisghr      (模拟的水凝物粒子比含水量的垂直分布)
+│   ├── rain         (模拟的累计降水)
+│   ├── uv-q         (模拟的风场叠加相对湿度)
+│   ├── uv-t         (模拟的风场叠加温度)
+│   └── Wmax-T       (模拟的最大上升气流小时时间序列图)
+├── 170714           (MY方案(不做源汇项)的画图后处理)
 │   ├── dbz          (雷达回波模拟)
-│   ├── mesh
-│   ├── mesh-ra
-│   └── rain
+│   ├── mesh         (由模拟的雷达反射了和计算得到的冰雹最大估计尺寸)
+│   ├── mesh-ra      (由宁夏雷达nc雷达反射率和模拟的高度计算得到的冰雹最大估计尺寸)
+│   ├── rain         (模拟的累计降水非源汇项wrfout)
 ├── 180610
-│   ├── chui
+│   ├── chui         (模拟的雷达回波垂直剖面)
+│	  │   ├── dbz-chui.ncl
+│	  │   ├── dbz-ver.000001.png
+│	  │   ├── dbz-ver.000002.png
+│	  │   ├── dbz-ver.000003.png
+│	  │   ├── dbz-ver.000004.png
+│	  │   ├── dbz-ver.000005.png
+│	  │   └── line     (斜着剖面的图)
 │   ├── dbz          (雷达回波模拟)
-│   ├── dbz-ra
+│   ├── dbz-ra       (雷达回波实况)
 │   ├── diaf         (粒径出现概率占比--柱状图)
-│   ├── hail
-│   ├── io
-│   ├── io-cloud
-│   ├── io-graupel
-│   ├── io-hail
-│   ├── io-ice
-│   ├── io-rain
-│   ├── io-snow
+│   ├── hail         (MY方案模拟的累计降雹)
+│   │   └── hail     (模拟的累计降雹?????/nuist/scratch/liuxl/ycy/nx67/3.71/8-9/WRFV3/run/wrfout_d02_2017-06-07_00:00:00.nc)
+│   ├── io        (微物理源汇项)
+│   │   ├── g     (霰粒子微物理源项 雪霰转换QCNSG 水汽凝华QVDCG 碰并云水QCLCG)
+│   │   ├── h     (冰雹微物理源项 霰雹转换QCNGH 碰并雨水QCLRH 碰并云水QCLCH)
+│   │   ├── i     (冰晶微物理源项 云水冻结QFZCI 水汽凝华QVDVI)
+│   │   ├── r     (雨滴微物理源汇转换 雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR)
+│   │   └── s     (雪晶微物理源项 冰雪转化QCNIS 水汽凝华QVDVS 碰并云水QCLCS)
+│   ├── io-cloud   (云水冻结QFZCI 雹碰并QCLCH 霰碰并云水QCLCG 雪碰并QCLCS)
+│   ├── io-graupel  (霰雹自动转换QCNGH 霰融化QMLGR 霰碰并云水QCLCG 凝华QVDVG 雪霰转换QCNSG)
+│   ├── io-hail     (冰雹融化QMLHR 霰雹自动转换QCNGH 冰雹碰并雨水QCLRH 冰雹碰并云水QCLCH)
+│   ├── io-ice      (冰雪转化QCNIS 云水冻结QFZCI 水汽凝华QVDVI)
+│   ├── io-rain     (雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR) 
+│   ├── io-snow     (雪融化QMLSR 雪碰并QCLCS 水汽凝华QVDVS 冰雪转化QCNIS)
 │   ├── io-total
+│   │   ├── io-cloud   (云雨自动转化RCAUTR 云水冻结QFZCI 雹碰并QCLCH 霰碰并云水QCLCG 雪碰并QCLCS 冰核核化QNUVI)
+│   │   ├── io-graupel  (QIMGI 霰雹自动转换QCNGH 霰融化QMLGR QCLRG QCLIG 霰碰并云水QCLCG 凝华QVDVG 雪霰转换QCNSG)
+│   │   ├── io-hail     (冰雹融化QMLHR 霰雹自动转换QCNGH 冰雹碰并雨水QCLRH QFZRH QCLSH QCLIH 冰雹碰并云水QCLCH QVDVH)
+│   │   ├── io-ice      (QCLIH QMLIR QCLIG QCLIS QCLIR 冰雪转化QCNIS QIMGI QIMSI 云水冻结QFZCI 水汽凝华QVDVI QNUVI)
+│   │   ├── io-rain     (雨水蒸发QREVP RCACCR RCAUTR QFZRH 冰雹碰并雨水QCLRH QCLRG QCLRS QCLRI QMLIR 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR) 
+│   │   └── io-snow     (QCLSH QCLSR QIMSI 雪融化QMLSR QCLIS 雪碰并QCLCS 水汽凝华QVDVS 冰雪转化QCNIS)
 │   ├── mcape        (cape能模拟)
-│   ├── mcin
-│   ├── mesh
-│   ├── mesh-ra
+│   ├── mcin         (cin能模拟)
+│   ├── mesh         (由模拟的雷达反射了和计算得到的冰雹最大估计尺寸)
+│   ├── mesh-ra      (由宁夏雷达nc雷达反射率和模拟的高度计算得到的冰雹最大估计尺寸)
 │   ├── NCCN
-│   ├── nom                            (均一化平均的垂直分布)
+│   ├── nom          (均一化平均的垂直分布)
 │   ├── nudging
 │   ├── obrain
 │   ├── omega
-│   ├── qcisghr
-│   ├── rain
-│   ├── rh                       (不同气压层相对湿度场)
+│   ├── qcisghr      (模拟的水凝物粒子比含水量的垂直分布)
+│   ├── rain         (模拟的累计降水 - 源汇项wrfout !!! )
+│   ├── rh           (不同气压层相对湿度场)
 │   ├── t-lnp
-│   ├── uv-q
-│   ├── uv-t
-│   └── Wmax-T
-├── analy-qcisghr         (参考刘冲水汽阔线填充图)
+│   ├── uv-q         (模拟的风场叠加相对湿度 - 源汇项wrfout !!! )
+│   ├── uv-t         (模拟的风场叠加温度 - 源汇项wrfout !!! )
+│   └── Wmax-T       (模拟的最大上升气流小时时间序列图)
+│       ├── compare  (18年6月10日MY源汇项和17年6月7日MY修改CCN浓度n200有nudging对比 北京时 时间标签完善) 
+│       ├── metoa    (18年6月10日MY源汇项和17年6月7日MY修改CCN浓度n200有nudging对比 世界时 时间标签不完善) 
+│       ├── n        (????? Wmax-T.ncl中/nuist/scratch/liuxl/liuxl/ycy/nx67-nn/WRFV3/run/nx67-nn该路径找不到)
+│       └── Wmax-T.ncl   (非源汇项wrfout)
+├── analy-qcisghr    (参考刘冲水汽阔线填充图)
 │   ├── 8-120428
 │   ├── 8-130606
 │   ├── 8-141003
@@ -139,8 +166,8 @@
 ├── eoa10
 │   ├── nx170607_mp10h.tar.gz
 │   └── nx170607_mp10.tar.gz
-├── grd               (2017年6月7日 cdo处理融合降水实况数据并画图)
-│   ├── 0607.nc
+├── grd                  (2017年6月7日 cdo处理融合降水实况数据并画图)
+│   ├── 0607.nc          (cdo处理后的nc文件)
 │   ├── rain.000001.png
 │   ├── rain.000002.png
 │   ├── rain.000003.png
@@ -354,7 +381,7 @@
 │   ├── unfold.o
 │   ├── wrfout_d02_2017-07-14_00:00:00 -> /nuist/scratch/liuxl/liuxl/ycy/case714/WRFV3/run/case714/wrfout_d02_2017-07-14_00:00:00
 │   └── wrfout_d02_2018-06-10_00:00:00 -> /nuist/scratch/liuxl/liuxl/ycy/case610/WRFV3/run/case610/wrfout_d02_2018-06-10_00:00:00
-├── radarnc                       17年nc数据和mesh画图
+├── radarnc                  (17年nc数据和mesh画图)
 │   ├── a.out
 │   ├── jobname.err
 │   ├── mesh.000001.png

@@ -4,29 +4,29 @@
 │   ├── output
 │   ├── WPS
 │   └── WRFV3
-├── case1003
-│   ├── io          (io MY的源汇项(修改namelist) 以下case同)
+├── case1003        (2014年10月3日个例)
+│   ├── io          (io MY的源汇项(修改namelist))
 │   │   └── WRFV3   (wrfout在run目录的case1003-io.tar.gz   116G)
 │   ├── WPS
 │   └── WRFV3       (不做源汇项 wrfout在run目录的case1003.tar.gz   94.5G)
-├── case428
-│   ├── io
+├── case428         (2012年04月28日个例)
+│   ├── io          (io MY的源汇项(修改namelist))
 │   │   └── WRFV3   (wrfout在run目录的case428-io.tar.gz   94.4G)
 │   ├── WPS
 │   └── WRFV3       (不做源汇项 wrfout在run目录的case428.tar.gz   84.6G)
 ├── case519
-│   ├── io
+│   ├── io          (io MY的源汇项(修改namelist))
 │   │   └── WRFV3   (wrfout在run目录的case519-io.tar.gz   101G)
 │   ├── WPS
 │   └── WRFV3       (有找到wrfout文件 ??????)
 ├── case610
-│   ├── io
+│   ├── io          (io MY的源汇项(修改namelist))
 │   │   └── WRFV3   (wrfout在run目录的case610-io.tar.gz   98G   此处压缩包有解压)
 │   ├── OBSGRID             (???????)
 │   ├── WPS
 │   └── WRFV3       (不做源汇项 wrfout在run目录的case610.tar.gz   84.5G)
 ├── case66
-│   ├── io
+│   ├── io          (io MY的源汇项(修改namelist))
 │   │   └── WRFV3   (wrfout在run目录的case66-io.tar.gz   96.2G)
 │   ├── WPS
 │   └── WRFV3       (不做源汇项 wrfout在run目录的case66.tar.gz   84.8G)
@@ -66,7 +66,7 @@
 │   ├── surface_obs.2017060612
 │   ├── surface_obs.2017060618
 │   └── surface_obs.2017060700
-├── NCCN                   (6月7日个例修改4种CCN浓度  有 nudging)
+├── NCCN             (2017年6月7日个例修改4种CCN浓度 有做nudging)
 │   ├── cncode
 │   ├── jobname.err
 │   ├── n10000      (WRFV3/run目录的10000.tar.gz   101G)
@@ -79,7 +79,9 @@
 │   ├── WRFV3
 │   └── WRFV3.7.1.TAR.gz -> /nuist/p/work/liuxl/liuxl/ycy/work/WRFV3.7.1.TAR.gz
 ├── nx67                  (为NCCN文件提供初始场  WPS)
-│   ├── 3.71
+│   ├── 3.71              (WRF3.7.1版本)
+│   │   ├── H-ns          (同化试验一)
+│   │   └── S-nh          (同化试验二)
 │   ├── OBSGRID
 │   └── OBSGRID.tar -> /nuist/scratch/liuxl/ycy/nx67/3.71/S-nh/OBSGRID.tar
 ├── nx67-obs               (namelist.input 和nudging -- 倾向于观测的nudging)

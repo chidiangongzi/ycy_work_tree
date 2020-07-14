@@ -1,122 +1,127 @@
-
-	/nuist/u/home/Liuxl/ycy
-├── 8-case			(--ignore)
-	│   ├── analy-qcisghr
-	│   └── zhongwen2
-├── 8-NCCN	绘图文件夹(修改了输出源汇)
-	│   ├── 10000
-	│   ├── 200
-	│   ├── 2000
-	│   ├── 50
-	│   ├── Dm
-	│   ├── omega
-	│   ├── rcautr
-	│   ├── res-170607-8
-	│   ├── res-io-8
-	│   └── res-io-9
-├── biyelunwen		 (毕业论文用 --ignore)
-	│   ├── 141003
-	│   │   ├── io
-	│   │	 │	 ├── g		 (霰粒子微物理源项 雪霰转换QCNSG 水汽凝华QVDCG 碰并云水QCLCG)
-	│   │	 │	 ├── h		 (冰雹微物理源项 霰雹转换QCNGH 碰并雨水QCLRH 碰并云水QCLCH)
-	│   │	 │	 ├── i		 (冰晶微物理源项 云水冻结QFZCI 水汽凝华QVDVI)
-	│   │	 │	 ├── r		 (雨滴微物理源汇转换 雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR)
-│   │	 │	 └── s		 (雪晶微物理源项 冰雪转化QCNIS 水汽凝华QVDVS 碰并云水QCLCS)
-	│   │   ├── io-cloud
-	│   │   ├── io-graupel
-	│   │   ├── io-hail
-	│   │   ├── io-ice
-	│   │   ├── io-rain
-	│   │   ├── io-snow
-	│   │   ├── io-total
-	│   │   ├── qcisghr
-│   │   ├── rh							(不同气压层相对湿度)
-	│   │   ├── t-lnp
-	│   │   └── Wmax-T
-	│   └── 180610
-	│  		 ├── chui
-	│  		 ├── dbz
-	│  		 ├── dbz-ra
-	│  		 ├── diaf
-	│  		 ├── hail
-	│  		 ├── io
-	│  		 │	 ├── g		 (霰粒子微物理源项 雪霰转换QCNSG 水汽凝华QVDCG 碰并云水QCLCG)
-	│  		 │	 ├── h		 (冰雹微物理源项 霰雹转换QCNGH 碰并雨水QCLRH 碰并云水QCLCH)
-	│  		 │	 ├── i		 (冰晶微物理源项 云水冻结QFZCI 水汽凝华QVDVI)
-	│  		 │	 ├── r		 (雨滴微物理源汇转换 雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR)
-│  		 │	 └── s		 (雪晶微物理源项 冰雪转化QCNIS 水汽凝华QVDVS 碰并云水QCLCS)
-	│  		 ├── io-cloud
-	│  		 ├── io-graupel
-	│  		 ├── io-hail
-	│  		 ├── io-ice
-	│  		 ├── io-rain
-	│  		 ├── io-snow
-	│  		 ├── io-total
-	│  		 ├── mcape
-	│  		 ├── mcin
-	│  		 ├── mesh
-	│  		 ├── mesh-ra
-	│  		 ├── NCCN
-	│  		 ├── nom
-	│  		 ├── nudging
-	│  		 ├── obrain
-	│  		 ├── omega
-	│  		 ├── qcisghr
-	│  		 ├── rain
-│  		 ├── rh					(不同气压层相对湿度)
-	│  		 ├── t-lnp
-	│  		 ├── uv-q
-	│  		 ├── uv-t
-	│  		 └── Wmax-T
-├── casepic				(个例的图)
-	│   ├── 8-120428
-	│   ├── 8-130606
-	│   ├── 8-141003
-	│   ├── 8-150519
-	│   ├── 8-170607
-	│   ├── 8-180610
-	│   ├── 9-130606
-	│   ├── 9-141003
-	│   └── 9-150519
-├── IO				(所有个例的8号方案 改了输出源汇项)
-	│   ├── case120428
-	│   ├── case130606
-	│   ├── case141003
-	│   ├── case150519
-	│   ├── case180610
-	│   └── case67
-├── NCCN				 (wrfout计算文件 输出源汇项目)
-	│   ├── 10000
-	│   ├── 200
-	│   ├── 2000
-	│   ├── 50
-	│   └── code
-	├── Nres				宁夏17年6月7日个例	源汇、数浓度 
-	│   ├── 1.out
-	│   ├── IO67
-	│   └── ncn.tar.gz
-├── rctuar-adjust		 (师门旧服务器 ，有一部分还没转完)
-	│   ├── 10000
-	│   ├── 200
-	│   ├── 2000
-	│   ├── 50
-	│   ├── code
-	│   ├── pic-adjust
-	│   └── WRFV3.7.1.TAR.gz -> ../thompson/WRFV3.7.1.TAR.gz
-	├── thompson
-	│   ├── code
-	│   ├── WRFV3
-	│   └── WRFV3.7.1.TAR.gz -> ../../scratch/ycy/thompson/WRFV3.7.1.TAR.gz
-├── Wmax-analy		(分析最大上升速度)
-	│   ├── 130606-8
-	│   ├── 130606-9
-	│   ├── 141003-8
-	│   ├── 141003-9
-	│   ├── 150519-8
-	│   ├── 150519-9
-	│   ├── 170607-8
-	│   ├── 170607-9
-	│   ├── 180610-8
-	│   └── 180610-9
-	└── work.log
+/nuist/u/home/Liuxl/ycy
+├── 8-case      (--ignore)
+│   ├── analy-qcisghr
+│   └── zhongwen2
+├── 8-NCCN  绘图文件夹(修改了输出源汇)
+│   ├── 10000
+│   ├── 200
+│   ├── 2000
+│   ├── 50
+│   ├── Dm
+│   ├── omega
+│   ├── rcautr
+│   ├── res-170607-8
+│   ├── res-io-8
+│   └── res-io-9
+├── biyelunwen     (毕业论文用 --ignore)
+│   ├── 141003
+│   │   ├── io
+│   │   │   ├── g     (霰粒子微物理源项 雪霰转换QCNSG 水汽凝华QVDCG 碰并云水QCLCG)
+│   │   │   ├── h     (冰雹微物理源项 霰雹转换QCNGH 碰并雨水QCLRH 碰并云水QCLCH)
+│   │   │   ├── i     (冰晶微物理源项 云水冻结QFZCI 水汽凝华QVDVI)
+│   │   │   ├── r     (雨滴微物理源汇转换 雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR)
+│   │   │   └── s     (雪晶微物理源项 冰雪转化QCNIS 水汽凝华QVDVS 碰并云水QCLCS)
+│   │   ├── io-cloud   (云水冻结QFZCI 雹碰并QCLCH 霰碰并云水QCLCG 雪碰并QCLCS)
+│   │   ├── io-graupel  (霰雹自动转换QCNGH 霰融化QMLGR 霰碰并云水QCLCG 凝华QVDVG 雪霰转换QCNSG)
+│   │   ├── io-hail     (冰雹融化QMLHR 霰雹自动转换QCNGH 冰雹碰并雨水QCLRH 冰雹碰并云水QCLCH)
+│   │   ├── io-ice      (冰雪转化QCNIS 云水冻结QFZCI 水汽凝华QVDVI)
+│   │   ├── io-rain     (雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR) 
+│   │   ├── io-snow     (雪融化QMLSR 雪碰并QCLCS 水汽凝华QVDVS 冰雪转化QCNIS)
+│   │   ├── io-total
+│   │   │   ├── io-cloud   (云雨自动转化RCAUTR 云水冻结QFZCI 雹碰并QCLCH 霰碰并云水QCLCG 雪碰并QCLCS 冰核核化QNUVI)
+│   │   │   ├── io-graupel  (QIMGI 霰雹自动转换QCNGH 霰融化QMLGR QCLRG QCLIG 霰碰并云水QCLCG 凝华QVDVG 雪霰转换QCNSG)
+│   │   │   ├── io-hail     (冰雹融化QMLHR 霰雹自动转换QCNGH 冰雹碰并雨水QCLRH QFZRH QCLSH QCLIH 冰雹碰并云水QCLCH QVDVH)
+│   │   │   ├── io-ice      (QCLIH QMLIR QCLIG QCLIS QCLIR 冰雪转化QCNIS QIMGI QIMSI 云水冻结QFZCI 水汽凝华QVDVI QNUVI)
+│   │   │   ├── io-rain     (雨水蒸发QREVP RCACCR RCAUTR QFZRH 冰雹碰并雨水QCLRH QCLRG QCLRS QCLRI QMLIR 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR) 
+│   │   │   └── io-snow     (QCLSH QCLSR QIMSI 雪融化QMLSR QCLIS 雪碰并QCLCS 水汽凝华QVDVS 冰雪转化QCNIS)
+│   │   ├── qcisghr
+│   │   ├── rh              (不同气压层相对湿度)
+│   │   ├── t-lnp
+│   │   └── Wmax-T
+│   └── 180610
+│       ├── chui
+│       ├── dbz
+│       ├── dbz-ra
+│       ├── diaf
+│       ├── hail
+│       ├── io
+│       │   ├── g     (霰粒子微物理源项 雪霰转换QCNSG 水汽凝华QVDCG 碰并云水QCLCG)
+│       │   ├── h     (冰雹微物理源项 霰雹转换QCNGH 碰并雨水QCLRH 碰并云水QCLCH)
+│       │   ├── i     (冰晶微物理源项 云水冻结QFZCI 水汽凝华QVDVI)
+│       │   ├── r     (雨滴微物理源汇转换 雨水蒸发QREVP 冰雹碰并雨水QCLRH 冰雹融化QMLHR 霰融化QMLGR 雪融化QMLSR)
+│       │   └── s     (雪晶微物理源项 冰雪转化QCNIS 水汽凝华QVDVS 碰并云水QCLCS)
+│       ├── io-cloud
+│       ├── io-graupel
+│       ├── io-hail
+│       ├── io-ice
+│       ├── io-rain
+│       ├── io-snow
+│       ├── io-total
+│       ├── mcape
+│       ├── mcin
+│       ├── mesh
+│       ├── mesh-ra
+│       ├── NCCN
+│       ├── nom
+│       ├── nudging
+│       ├── obrain
+│       ├── omega
+│       ├── qcisghr
+│       ├── rain
+│       ├── rh          (不同气压层相对湿度)
+│       ├── t-lnp
+│       ├── uv-q
+│       ├── uv-t
+│       └── Wmax-T
+├── casepic        (个例的图)
+│   ├── 8-120428
+│   ├── 8-130606
+│   ├── 8-141003
+│   ├── 8-150519
+│   ├── 8-170607
+│   ├── 8-180610
+│   ├── 9-130606
+│   ├── 9-141003
+│   └── 9-150519
+├── IO        (所有个例的8号方案 改了输出源汇项)
+│   ├── case120428
+│   ├── case130606
+│   ├── case141003
+│   ├── case150519
+│   ├── case180610
+│   └── case67
+├── NCCN         (wrfout计算文件 输出源汇项目)
+│   ├── 10000
+│   ├── 200
+│   ├── 2000
+│   ├── 50
+│   └── code
+├── Nres        宁夏17年6月7日个例  源汇、数浓度 
+│   ├── 1.out
+│   ├── IO67
+│   └── ncn.tar.gz
+├── rctuar-adjust     (师门旧服务器 ，有一部分还没转完)
+│   ├── 10000
+│   ├── 200
+│   ├── 2000
+│   ├── 50
+│   ├── code
+│   ├── pic-adjust
+│   └── WRFV3.7.1.TAR.gz -> ../thompson/WRFV3.7.1.TAR.gz
+├── thompson
+│   ├── code
+│   ├── WRFV3
+│   └── WRFV3.7.1.TAR.gz -> ../../scratch/ycy/thompson/WRFV3.7.1.TAR.gz
+├── Wmax-analy    (分析最大上升速度)
+│   ├── 130606-8
+│   ├── 130606-9
+│   ├── 141003-8
+│   ├── 141003-9
+│   ├── 150519-8
+│   ├── 150519-9
+│   ├── 170607-8
+│   ├── 170607-9
+│   ├── 180610-8
+│   └── 180610-9
+└── work.log
 
