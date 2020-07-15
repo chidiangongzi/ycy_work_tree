@@ -1,4 +1,4 @@
-../ycy/
+/nuist/u/home/Liuxl/scratch/ycy/
 ├── case150519      (同work目录的 IO 输出源汇    宁夏个例150519  方案Thompson)
 │   ├── WRFV3
 │   └── WRFV3.7.1.TAR.gz -> ../../thompson/WRFV3.7.1.TAR.gz
@@ -39,8 +39,8 @@
 │   ├── wrfout_d02_2017-06-07_00:00:00 -> /nuist/u/home/Liuxl/ycy/NCCN/200/WRFV3/run/8-200/wrfout_d02_2017-06-07_00:00:00
 │   └── ycy_100_full
 ├── res-5case    (毕业用于的论文画图的wrfout压缩包 不重要)
-│   ├── io    (MY方案带源汇项)
-│   └── res    (MY方案不带源汇项)
+│   ├── io    (MY方案带源汇项case1003-io.tar.gz case428-io.tar.gz case519-io.tar.gz case66-io.tar.gz)
+│   └── res    (MY方案不带源汇项case1003-io.tar.gz case428-io.tar.gz case519-io.tar.gz case66-io.tar.gz case610-io.tar.gz case610-nu.tar.gz)
 ├── tar      (wrfout压缩包)
 │   ├── 170607      (宁夏个例2017年 6月7日个例做CCN浓度敏感性实验  50 200 2000 10000数浓度实验wrfout)
 │   ├── case610-io.tar.gz  

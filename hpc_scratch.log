@@ -22,9 +22,9 @@
 ├── case610
 │   ├── io          (io MY的源汇项(修改namelist))
 │   │   └── WRFV3   (wrfout在run目录的case610-io.tar.gz   98G   此处压缩包有解压)
-│   ├── OBSGRID             (???????)
+│   ├── OBSGRID     (???????)
 │   ├── WPS
-│   └── WRFV3       (不做源汇项 wrfout在run目录的case610.tar.gz   84.5G)
+│   └── WRFV3       (做nudging !!!!! wrfout在run目录的case610-nu.tar.gz   84.5G)
 ├── case66
 │   ├── io          (io MY的源汇项(修改namelist))
 │   │   └── WRFV3   (wrfout在run目录的case66-io.tar.gz   96.2G)
@@ -57,7 +57,7 @@
 │   ├── namelist.input
 │   ├── Registry.EM_COMMON
 │   └── solve_em.F
-├── micaps                 (micaps数据)
+├── micaps          (micaps数据)
 │   ├── obs.2017060600
 │   ├── obs.2017060612
 │   ├── obs.2017060700
@@ -66,13 +66,13 @@
 │   ├── surface_obs.2017060612
 │   ├── surface_obs.2017060618
 │   └── surface_obs.2017060700
-├── NCCN             (2017年6月7日个例修改4种CCN浓度 有做nudging)
+├── NCCN             (2017年6月7日个例修改四种CCN浓度有源汇项 有做nudging 2018年6月10日个例修改两种CCN浓度)
 │   ├── cncode
 │   ├── jobname.err
-│   ├── n10000      (WRFV3/run目录的10000.tar.gz   101G)
+│   ├── n10000      (WRFV3/run目录的10000.tar.gz  101G | WRFV3/em_real目录case610-10000.tar.gz   98G)
 │   ├── n200      (WRFV3/run目录的200.tar.gz   101G)
-│   ├── n2000      (WRFV3/run目录的2000.tar.gz   101G)
-│   ├── n50      (WRFV3/run目录的50.tar.gz   100G)
+│   ├── n2000      (WRFV3/run目录的2000.tar.gz  101G | WRFV3/em_real目录case610-2000.tar.gz   90.7G)
+│   ├── n50      (WRFV3/run目录的50.tar.gz  100G)
 │   ├── ncn.tar.gz     (101G)
 │   ├── tar-200.o209485
 │   ├── tar.sh            (压缩数据的qsub脚本)
